@@ -9,7 +9,7 @@ For a complete list of all the data captured and a more detailed description of 
 
 ##Variables
 
-* `Subject` - An ID uniquely representing a person involved in the study.  Values range from 1 to 30.
+* `Subject` - An integer ID uniquely representing a person involved in the study.  Values range from 1 to 30.
 * `Activity` - A factor representing one of 6 activities that the subject was performing when the data was captured.  Valid values include: WALKING, WALKING_UPSTAIRS
 , WALKING_DOWNSTAIRS
 , SITTING
