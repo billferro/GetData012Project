@@ -35,7 +35,8 @@ The resulting output txt file meets the principals of a tidy data set because
 
 ## Output File
 
-TidyDataSet.txt - See `CodeBook.md` for a description of the data.
+TidyDataSet.txt - See `CodeBook.md` for a description of the data.  The data can be read into an R data frame using the following code:<br/>
+	`read.table("TidyDataSet.txt", header=TRUE)`
 
 
 ## Acknowledgements
