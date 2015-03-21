@@ -10,17 +10,18 @@ This project assumes that you have downloaded the raw data set and unzipped it i
 
 ## Project Files
 
-* `run_analysis.R` - Script that performs the project steps required to combine the initial raw data sets and produce the resulting tidy data set.
-####Requirements
+* `run_analysis.R` - Script that performs the project steps required to combine the initial raw data sets and produce the resulting tidy data set.<br/><br/>
+**Requirements**<br/>
 The script must meet the following requirements:
-	1. Merges the training and the test sets to create one data set.
-	2. Extracts only the measurements on the mean and standard deviation for each measurement.
-	3. Uses descriptive activity names to name the activities in the data set.
-	4. Appropriately labels the data set with descriptive variable names.
-	5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-####Tidy Data Set
+<ol type="1">
+	<li>Merges the training and the test sets to create one data set.</li>
+	<li>Extracts only the measurements on the mean and standard deviation for each measurement.</li>
+	<li>Uses descriptive activity names to name the activities in the data set.</li>
+	<li>Appropriately labels the data set with descriptive variable names.</li>
+	<li>From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.</li></ol><br/>
+**Tidy Data Set**<br/>
 The resulting output txt file meets the principals of a tidy data set because
-<ol>
+<ol type="1" start="1">
 	<li>Each measured variable is in one column as noted by the xxMean and xxStd columns in the resulting file.</li>
 	<li>Each obvservation is on a different row as noted by the 180 rows representing 30 subjects and 6 activities for each subject.</li>
 	<li>There is one table for each kind of variable.  In this case, there is only one table and it represents the calculated averages of the subject/activity combinations.</li>
